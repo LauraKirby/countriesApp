@@ -36,7 +36,10 @@ app.get('/countries/new', function(req,res){
 	res.render("countries/new"); 
 });
 
-
+//SHOW
+app.get('/countries/new', function(req,res){
+	res.render("countries/new"); 
+});
 
 app.listen(3000, function(){
 	console.log("Server is running on port 3000")
